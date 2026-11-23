@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فارس أسعد | معرض الأعمال</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-glow"></div>
+
+    <main class="container">
+        <header class="header-card">
+            <span class="badge">معرض المشاريع التطبيقية</span>
+            <h1>فارس أسعد علي حسن</h1>
+            <p class="subtitle">
+                مجموعة مختارة من المشاريع البرمجية والذكائية والأمنية التي تعكس العمل التطبيقي والنتائج المحققة.
+            </p>
+        </header>
+
+        <section class="projects-grid">
+            <!-- البطاقة الأولى -->
+            <article class="project-card">
+                <div class="image-box">
+                    <img src="assets/images/project1.webp" alt="مشروع تجميع البيانات الذكي" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="image-fallback">صورة العمل الأول: assets/images/project1.webp</div>
+                </div>
+                <div class="card-body">
+                    <h2>منظومة تجميع البيانات بـ K-means</h2>
+                    <p class="result-line">النتيجة: تقليص زمن تصنيف المجموعات ورفع دقة تجميع البيانات عبر المسافة الإقليدية.</p>
+                </div>
+            </article>
+
+            <!-- البطاقة الثانية -->
+            <article class="project-card">
+                <div class="image-box">
+                    <img src="assets/images/project2.webp" alt="نموذج التشفير RSA" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="image-fallback">صورة العمل الثاني: assets/images/project2.webp</div>
+                </div>
+                <div class="card-body">
+                    <h2>تطبيق خوارزمية التشفير RSA</h2>
+                    <p class="result-line">النتيجة: التحقق العملي من توليد المفاتيح وتشفير وفك تشفير الرسائل بدقة عالية.</p>
+                </div>
+            </article>
+
+            <!-- البطاقة الثالثة -->
+            <article class="project-card">
+                <div class="image-box">
+                    <img src="assets/images/project3.webp" alt="نظام إدارة وتصميم واجهات آمنة" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="image-fallback">صورة العمل الثالث: assets/images/project3.webp</div>
+                </div>
+                <div class="card-body">
+                    <h2>تطبيق ويب بواجهة آمنة وتجربة مستخدم منظمة</h2>
+                    <p class="result-line">النتيجة: واجهة متجاوبة عالية الوضوح تدعم عرض المحتوى بسلاسة على الجوال وسطح المكتب.</p>
+                </div>
+            </article>
+        </section>
+
+        <footer class="footer-note">
+            <span>للتواصل والاستفسار:</span>
+            <a href="mailto:faresasaad2021@gmail.com">faresasaad2021@gmail.com</a>
+        </footer>
+    </main>
+
+</body>
+</html>
